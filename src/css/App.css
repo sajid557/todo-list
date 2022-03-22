@@ -100,9 +100,15 @@ h3 {
   padding: 0 8px;
   background-color: #f7f3f3;
   margin-top: 20px;
+  border: 1px solid #c4c4c436;
+}
+
+.todo ul li:last-child > div {
+  border-bottom: 0;
 }
 
 .todo ul li > div {
+  padding: 10px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

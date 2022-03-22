@@ -29,9 +29,7 @@ const Form = ({ InputText, setInputText, Goals, setGoals, setStatus }) => {
           name="input"
           required
         />
-        <button type="submit">
-          <i className="fas fa-plus" aria-hidden="true"></i>
-        </button>
+        <button type="submit">Add</button>
       </div>
       <Filter setStatus={setStatus} />
     </form>
